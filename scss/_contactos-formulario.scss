@@ -1,0 +1,42 @@
+.contacto h1{
+    font-size: 50px;
+    margin-top: 140px;
+    background-color: #3a1c0e;
+    height: 60px;
+    color: white;
+}
+.formulario{
+    border: solid #3a1c0e 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 750px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #ade2e9;
+    .nombre{
+        color: #2f0377;
+        text-decoration:underline;
+    }
+    .email{
+        color: #2f0377;
+        text-decoration:underline;
+    }
+    .telefono{
+        color: #2f0377;
+        text-decoration:underline;
+    }
+    .consulta{
+        color: #2f0377;
+        text-decoration:underline;
+        overflow: auto;
+    }
+    form textarea{
+        width: 20%;
+        height: 30%;
+        margin-top: 50px;
+        padding: 10px;
+        text-align: left;
+    }
+}

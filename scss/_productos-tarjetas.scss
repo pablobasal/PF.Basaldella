@@ -1,0 +1,41 @@
+.tarjecompras{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 700px;
+    .tarj{
+        border: solid #3a1c0e 3px;
+        text-align: center;
+        h1{
+            font-size: 25px;
+        }
+    }
+    .tarj1{
+        img{
+            width: 100%;
+            height: 50%;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            background-color: rgb(11, 107, 197);
+            color: white;
+            border: 0px;
+            margin-bottom: 5px;
+        }
+    }
+    .tarj2{
+        button{
+            width: 100px;
+            height: 40px;
+            background-color: rgb(11, 107, 197);
+            color: white;
+            border: 0px;
+            margin-bottom: 5px;
+        }
+        img{
+            height: 45%;
+            width: 100%;
+        }   
+    }
+}

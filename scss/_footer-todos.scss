@@ -1,0 +1,17 @@
+.pie{
+    p{
+        color: grey;
+        font-size: 15px;
+        text-align: center;
+    }
+    img{
+        width: 12%;
+        height: 12%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .pie-logos{
+        display: flex;
+        justify-content: space-between;
+    }
+}
