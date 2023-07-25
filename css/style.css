@@ -25,6 +25,7 @@
 
 .sec-tarjet {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -34,9 +35,6 @@
   border-color: #3a1c0e;
   width: 50%;
   height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
 }
 .sec-tarjet .tarjetas h1 {
@@ -219,27 +217,40 @@ hr {
 }
 
 @media (max-width: 576px) {
-  .tarjetas {
-    width: 100%;
+  .sec-tarjet {
     height: 50%;
+    width: 100%;
   }
 }
 @media (max-width: 870px) {
   .sec-tarjet {
-    height: 500px;
+    width: 100%;
+    height: 50%;
+    overflow: scroll;
+  }
+  .tarj {
     overflow: scroll;
   }
   .cafes {
     height: 500px;
     width: 100%;
     overflow: scroll;
+    justify-content: flex-start;
+    margin-left: 0%;
   }
   .formulario {
-    width: auto;
+    width: 600px;
+    margin-left: 0%;
   }
   .formulario textarea {
     width: 100px;
     height: 20px;
+  }
+  .galeria {
+    width: 100%;
+  }
+  .map {
+    margin-left: 0%;
   }
 }
 

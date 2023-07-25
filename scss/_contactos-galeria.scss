@@ -14,25 +14,9 @@
         height: 100%;
         object-fit: cover;
     }
-    .im1{
-        grid-area: im1;
-    }
-    .im2{
-        grid-area: im2;
-    }
-    .im3{
-        grid-area: im3;
-    }
-    .im4{
-        grid-area: im4;
-    }
-    .im5{
-        grid-area: im5;
-    }
-    .im6{
-        grid-area: im6;
-    }
-    .im7{
-        grid-area: im7;
+    @for $img from 1 to 8{
+        .im#{$img}{
+            grid-area: im#{$img};
+        }
     }
 }

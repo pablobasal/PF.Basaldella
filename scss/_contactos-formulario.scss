@@ -6,7 +6,7 @@
     color: white;
 }
 .formulario{
-    border: solid #3a1c0e 3px;
+    border: solid $color 3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -16,19 +16,19 @@
     margin-left: 40px;
     background-color: #ade2e9;
     .nombre{
-        color: #2f0377;
+        color: $formulario-color;
         text-decoration:underline;
     }
     .email{
-        color: #2f0377;
+        color: $formulario-color;
         text-decoration:underline;
     }
     .telefono{
-        color: #2f0377;
+        color: $formulario-color;
         text-decoration:underline;
     }
     .consulta{
-        color: #2f0377;
+        color: $formulario-color;
         text-decoration:underline;
         overflow: auto;
     }

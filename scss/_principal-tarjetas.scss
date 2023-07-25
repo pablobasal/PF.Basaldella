@@ -1,16 +1,14 @@
 .sec-tarjet{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     .tarjetas{
         margin: 20px;
         border: solid 3px;
-        border-color: #3a1c0e;
+        border-color: $color;
         width: 50%;
         height: auto;
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
         align-items: center;
         h1{
             font-size: 30px;
