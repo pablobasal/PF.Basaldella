@@ -18,9 +18,10 @@
         button{
             width: 100px;
             height: 40px;
-            background-color: rgb(11, 107, 197);
+            background-color: $boton;
             color: white;
             border: 0px;
+            border-radius: 50px;
             margin-bottom: 5px;
         }
     }
@@ -28,14 +29,29 @@
         button{
             width: 100px;
             height: 40px;
-            background-color: rgb(11, 107, 197);
+            background-color: $boton;
             color: white;
             border: 0px;
+            border-radius: 50px;
             margin-bottom: 5px;
         }
         img{
             height: 45%;
             width: 100%;
         }   
+    }
+}
+.paquetes{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    button{
+        border-radius: 50px;
+        background-color: $boton;
+    }
+    .paq{
+        text-align: center;
+        margin: 5px;
     }
 }

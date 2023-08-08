@@ -92,6 +92,7 @@ hr {
   background-color: rgb(11, 107, 197);
   color: white;
   border: 0px;
+  border-radius: 50px;
   margin-bottom: 5px;
 }
 .tarjecompras .tarj2 button {
@@ -100,11 +101,27 @@ hr {
   background-color: rgb(11, 107, 197);
   color: white;
   border: 0px;
+  border-radius: 50px;
   margin-bottom: 5px;
 }
 .tarjecompras .tarj2 img {
   height: 45%;
   width: 100%;
+}
+
+.paquetes {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.paquetes button {
+  border-radius: 50px;
+  background-color: rgb(11, 107, 197);
+}
+.paquetes .paq {
+  text-align: center;
+  margin: 5px;
 }
 
 .cafes {
@@ -221,6 +238,23 @@ hr {
     height: 50%;
     width: 100%;
   }
+  .formulario {
+    width: 60%;
+  }
+  .galeria {
+    width: 50%;
+  }
+}
+@media (max-width: 650px) {
+  .map {
+    width: 50%;
+  }
+  .formulario {
+    width: 50%;
+  }
+  .galeria {
+    width: 50%;
+  }
 }
 @media (max-width: 870px) {
   .sec-tarjet {
@@ -240,7 +274,6 @@ hr {
   }
   .formulario {
     width: 600px;
-    margin-left: 0%;
   }
   .formulario textarea {
     width: 100px;
@@ -250,7 +283,7 @@ hr {
     width: 100%;
   }
   .map {
-    margin-left: 0%;
+    width: 60%;
   }
 }
 

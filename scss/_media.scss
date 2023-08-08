@@ -3,6 +3,23 @@
         height: 50%;
         width: 100%;
     }
+    .formulario{
+        width: 60%;
+    }
+    .galeria{
+        width: 50%;
+    }
+}
+@media (max-width: 650px){
+    .map{
+        width: 50%;
+    }
+    .formulario{
+        width: 50%;
+    }
+    .galeria{
+        width: 50%;
+    }
 }
 @media (max-width: 870px){
     .sec-tarjet{
@@ -22,7 +39,6 @@
     }
     .formulario{
         width: 600px;
-        margin-left: 0%;
     }
     .formulario textarea{
         width: 100px;
@@ -32,6 +48,6 @@
         width: 100%;
     }
     .map{
-        margin-left: 0%;
+        width: 60%;
     }
 }
