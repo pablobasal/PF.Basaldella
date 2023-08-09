@@ -10,33 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 750px;
-    height: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
+    padding: 10px;
+    margin: 5px;
     background-color: #ade2e9;
-    .nombre{
-        color: $formulario-color;
-        text-decoration:underline;
-    }
-    .email{
-        color: $formulario-color;
-        text-decoration:underline;
-    }
-    .telefono{
-        color: $formulario-color;
-        text-decoration:underline;
-    }
-    .consulta{
-        color: $formulario-color;
-        text-decoration:underline;
-        overflow: auto;
-    }
-    form textarea{
-        width: 20%;
-        height: 30%;
-        margin-top: 50px;
-        padding: 10px;
-        text-align: left;
-    }
 }

@@ -44,17 +44,27 @@
         <h1>CONTACTANOS</h1>
       </div>
       <section class="formulario">
-       <form action="contactanos">
-          <label for="nombre" class="nombre k">Nombre:</label>
-          <input type="text" name="nombre" id="nombre" required>
-          <label for="email" class="email k">Email:</label>
-          <input type="email" name="email" id="email" required>
-          <label for="telefono" class="telefono k">Tel:</label>
-          <input type="number" name="tel" id="tel">
-          <label for="consulta" class="consulta k">Consulta:</label>
-          <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-          <input type="button" value="Enviar">
-       </form>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label"></label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="email@">
+          </div>
+          <div class="col-md-6">
+            <label for="inputNombre4" class="form-label"></label>
+            <input type="text" class="form-control" id="inputNombre4" placeholder="Nombre">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label"></label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Consulta">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label"></label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Ciudad o País">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
       </section>
       <hr>
       <div class="map">
